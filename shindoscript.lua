@@ -58,7 +58,7 @@ TextButton_2.TextSize = 40.000
 TextButton_2.TextWrapped = true
 
 function spins()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Break6Blocks/Break6Blocks/blob/main/rollingshind.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Break6Blocks/Break6Blocks/main/rollingshind.lua"))()
     for i,v in pairs(player.PlayerGui:GetChildren()) do
         if v.Name == "ScreenGui" then
             v:Destroy()
